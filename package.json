@@ -1,32 +1,35 @@
 {
-  "name": "cerebrum",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "npm test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mbajoshuac/cerebrum.git"
-  },
-  "keywords": [
-    "education",
-    "online",
-    "learning."
-  ],
-  "author": "Cerebrum Dev Studio",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mbajoshuac/cerebrum/issues"
-  },
-  "homepage": "https://github.com/mbajoshuac/cerebrum#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "joi": "^17.3.0",
-    "mongoose": "^5.11.11"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.6"
-  }
+    "name": "cerebrum",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "node test",
+        "dev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mbajoshuac/cerebrum.git"
+    },
+    "keywords": [
+        "education",
+        "online",
+        "learning."
+    ],
+    "author": "Cerebrum Dev Studio",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mbajoshuac/cerebrum/issues"
+    },
+    "homepage": "https://github.com/mbajoshuac/cerebrum#readme",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "joi": "^17.3.0",
+        "mongoose": "^5.11.10"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
 }
