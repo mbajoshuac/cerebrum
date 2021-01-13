@@ -1,5 +1,8 @@
-const express = require ('express')
+const express = require('express')
 const app = express()
+require('dotenv').config({ path: './.env' })
+const response = require('./utils/response')
+
 
 
 
@@ -14,6 +17,7 @@ app.use(express.json())
 
 
 
+//Home route
 
 
 
@@ -24,4 +28,5 @@ app.use(express.json())
 
 
 
-module.exports = app 
+
+module.exports = app
